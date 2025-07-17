@@ -145,145 +145,1525 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
 
   return (
     <a.group ref = {islandRef} {...props} dispose={null}>
-      <group position={[-11, -50, 11]} rotation={[-Math.PI / 2, 0, 0]} scale={80}>
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_10.geometry}
-          material={materials.End_Stone}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_11.geometry}
-          material={materials.End_Stone}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_12.geometry}
-          material={materials.End_Stone}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_13.geometry}
-          material={materials.End_Stone_Bricks}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_14.geometry}
-          material={materials.Ender_Chest}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_15.geometry}
-          material={materials.Ladder}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_16.geometry}
-          material={materials.Magenta_Wall_Banner}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_17.geometry}
-          material={materials.Mob_Head}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_18.geometry}
-          material={materials.Obsidian}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_19.geometry}
-          material={materials.Piston}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_2.geometry}
-          material={materials.Brewing_Stand}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_20.geometry}
-          material={materials.Purpur_Block}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_21.geometry}
-          material={materials.Purpur_Pillar}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_22.geometry}
-          material={materials.Purpur_Slab}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_23.geometry}
-          material={materials.Purpur_Stairs}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_24.geometry}
-          material={materials.Stained_Glass}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_3.geometry}
-          material={materials.Chest}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_4.geometry}
-          material={materials.Chorus_Flower}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_5.geometry}
-          material={materials.Chorus_Plant}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_6.geometry}
-          material={materials.Chorus_Plant}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_7.geometry}
-          material={materials.Chorus_Plant}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_8.geometry}
-          material={materials.End_Rod}
-        />
-        <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Object_9.geometry}
-          material={materials.End_Stone}
-        />
+      <group position={[14.412, -4.56, 0]} rotation={[-Math.PI / 2, 0, 0]} scale={6.9}>
+        <group rotation={[Math.PI / 2, 0, 0]}>
+          <group position={[-4.225, 0.123, -3.158]} rotation={[0, -0.661, 0]}>
+            <group position={[1.545, 2.352, 0.707]} rotation={[0.352, 1.053, 0]} scale={0.477}>
+              <group position={[0.898, -0.435, -2.2]} rotation={[0, -1.011, 0]} scale={1.152}>
+                <mesh
+                  castShadow
+                  receiveShadow
+                  geometry={nodes.pCube6_lambert1_0004.geometry}
+                  material={materials.lambert1}
+                  position={[3.473, 1.184, 0.606]}
+                  rotation={[3.089, 0.456, 2.989]}
+                  scale={[3.408, 0.103, 1.009]}
+                />
+                <mesh
+                  castShadow
+                  receiveShadow
+                  geometry={nodes.pCube8_lambert1_0001.geometry}
+                  material={materials.lambert1}
+                  position={[2.121, 1.214, -1.292]}
+                  rotation={[0.426, -1.508, 0.165]}
+                  scale={[3.408, 0.103, 1.009]}
+                />
+                <mesh
+                  castShadow
+                  receiveShadow
+                  geometry={nodes.pCube9_lambert1_0001.geometry}
+                  material={materials.lambert1}
+                  position={[1.16, 1.266, 0.822]}
+                  rotation={[0.041, 0.641, -0.326]}
+                  scale={[3.408, 0.103, 1.009]}
+                />
+              </group>
+              <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.pCube6_lambert1_0003.geometry}
+                material={materials.lambert1}
+                position={[3.496, 1.184, 0.557]}
+                rotation={[3.09, 0.416, 2.987]}
+                scale={[3.408, 0.103, 1.009]}
+              />
+              <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.pCube8_lambert1_0.geometry}
+                material={materials.lambert1}
+                position={[1.956, 1.214, -1.27]}
+                rotation={[0.14, -1.385, -0.122]}
+                scale={[3.408, 0.103, 1.009]}
+              />
+              <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.pCube9_lambert1_0.geometry}
+                material={materials.lambert1}
+                position={[1.399, 1.267, 1.009]}
+                rotation={[0.052, 0.881, -0.341]}
+                scale={[3.408, 0.103, 1.009]}
+              />
+              <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.pSphere1_lambert1_0.geometry}
+                material={materials.lambert1}
+                position={[2.282, 1.19, -0.006]}
+                rotation={[0, -1.053, 0]}
+                scale={[0.272, 0.573, 0.272]}
+              />
+            </group>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube5_lambert1_0002.geometry}
+              material={materials.lambert1}
+              position={[1.843, 1.55, -1.339]}
+              rotation={[-0.458, -1.362, -0.775]}
+              scale={[3.408, 0.103, 1.009]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube6_lambert1_0002.geometry}
+              material={materials.lambert1}
+              position={[3.332, 1.494, 0.581]}
+              rotation={[2.935, 0.539, 3.005]}
+              scale={[3.408, 0.103, 1.009]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube7_lambert1_0001.geometry}
+              material={materials.lambert1}
+              position={[1.097, 1.494, 0.895]}
+              rotation={[-0.077, 0.726, -0.19]}
+              scale={[3.408, 0.103, 1.009]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCylinder1_lambert1_0.geometry}
+              material={materials.lambert1}
+              position={[2.058, 2.185, -0.043]}
+              scale={[0.069, 1, 0.069]}
+            />
+          </group>
+          <group position={[-4.63, 0.129, 2.208]}>
+            <group position={[1.144, 2.269, 0.373]} rotation={[0.329, 0.697, 0.502]} scale={0.36}>
+              <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.pCube10_lambert1_0.geometry}
+                material={materials.lambert1}
+                position={[1.076, 1.108, -0.692]}
+                rotation={[-0.087, -0.538, -0.224]}
+                scale={[3.408, 0.103, 1.009]}
+              />
+              <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.pCube6_lambert1_0006.geometry}
+                material={materials.lambert1}
+                position={[3.496, 1.184, 0.557]}
+                rotation={[3.09, 0.416, 2.987]}
+                scale={[3.408, 0.103, 1.009]}
+              />
+              <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.pCube8_lambert1_0002.geometry}
+                material={materials.lambert1}
+                position={[2.633, 0.868, -1.277]}
+                rotation={[-2.88, -1.24, -2.894]}
+                scale={[3.408, 0.103, 1.009]}
+              />
+              <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.pCube9_lambert1_0002.geometry}
+                material={materials.lambert1}
+                position={[1.728, 1.276, 1.198]}
+                rotation={[-0.018, 1.192, -0.292]}
+                scale={[3.408, 0.103, 1.009]}
+              />
+              <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.pSphere1_lambert1_0001.geometry}
+                material={materials.lambert1}
+                position={[2.282, 1.19, -0.006]}
+                rotation={[0, -1.053, 0]}
+                scale={[0.272, 0.573, 0.272]}
+              />
+            </group>
+            <group position={[1.829, 2.388, 0.606]} rotation={[1.385, 0.679, -0.265]} scale={0.36}>
+              <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.pCube10_lambert1_0001.geometry}
+                material={materials.lambert1}
+                position={[1.076, 1.108, -0.692]}
+                rotation={[-0.087, -0.538, -0.224]}
+                scale={[3.408, 0.103, 1.009]}
+              />
+              <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.pCube6_lambert1_0007.geometry}
+                material={materials.lambert1}
+                position={[3.496, 1.184, 0.557]}
+                rotation={[3.09, 0.416, 2.987]}
+                scale={[3.408, 0.103, 1.009]}
+              />
+              <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.pCube8_lambert1_0003.geometry}
+                material={materials.lambert1}
+                position={[2.633, 0.868, -1.277]}
+                rotation={[-2.88, -1.24, -2.894]}
+                scale={[3.408, 0.103, 1.009]}
+              />
+              <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.pCube9_lambert1_0003.geometry}
+                material={materials.lambert1}
+                position={[1.728, 1.276, 1.198]}
+                rotation={[-0.018, 1.192, -0.292]}
+                scale={[3.408, 0.103, 1.009]}
+              />
+              <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.pSphere1_lambert1_0002.geometry}
+                material={materials.lambert1}
+                position={[2.282, 1.19, -0.006]}
+                rotation={[0, -1.053, 0]}
+                scale={[0.272, 0.573, 0.272]}
+              />
+            </group>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube5_lambert1_0003.geometry}
+              material={materials.lambert1}
+              position={[1.843, 1.55, -1.339]}
+              rotation={[-0.458, -1.362, -0.775]}
+              scale={[3.408, 0.103, 1.009]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube6_lambert1_0005.geometry}
+              material={materials.lambert1}
+              position={[3.332, 1.494, 0.581]}
+              rotation={[2.935, 0.539, 3.005]}
+              scale={[3.408, 0.103, 1.009]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube7_lambert1_0002.geometry}
+              material={materials.lambert1}
+              position={[1.097, 1.494, 0.895]}
+              rotation={[-0.077, 0.726, -0.19]}
+              scale={[3.408, 0.103, 1.009]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCylinder1_lambert1_0001.geometry}
+              material={materials.lambert1}
+              position={[2.058, 2.185, -0.043]}
+              scale={[0.069, 1, 0.069]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCylinder2_lambert1_0.geometry}
+              material={materials.lambert1}
+              position={[2.655, 2.306, 0.223]}
+              rotation={[0.416, -0.101, -0.367]}
+              scale={[0.069, 1, 0.069]}
+            />
+          </group>
+          <group position={[-1.795, 0.677, 0.215]} scale={0.669}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube1_lambert1_0.geometry}
+              material={materials.lambert1}
+              position={[-0.077, 1.188, 0]}
+              scale={[5.326, 0.161, 1.577]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube2_lambert1_0.geometry}
+              material={materials.lambert1}
+              position={[1.901, 1.187, 2.034]}
+              rotation={[0, 1.503, 0]}
+              scale={[5.132, 0.155, 1.52]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube3_lambert1_0.geometry}
+              material={materials.lambert1}
+              position={[4.145, 1.188, 0.105]}
+              rotation={[-Math.PI, 0.05, -Math.PI]}
+              scale={[5.308, 0.16, 1.572]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube4_lambert1_0.geometry}
+              material={materials.lambert1}
+              position={[2.145, 1.184, -1.884]}
+              rotation={[Math.PI, -1.514, Math.PI]}
+              scale={[4.749, 0.144, 1.406]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube5_lambert1_0.geometry}
+              material={materials.lambert1}
+              position={[1.128, 1.837, -0.726]}
+              rotation={[-0.067, -0.639, -0.557]}
+              scale={[3.408, 0.103, 1.009]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube6_lambert1_0.geometry}
+              material={materials.lambert1}
+              position={[3.024, 1.831, 0.628]}
+              rotation={[3.13, 0.573, 2.638]}
+              scale={[3.408, 0.103, 1.009]}
+            />
+          </group>
+          <group
+            position={[-6.301, -0.143, -1.129]}
+            rotation={[0.154, -0.199, 0.215]}
+            scale={[0.556, 1, 0.556]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube5_lambert1_0001.geometry}
+              material={materials.lambert1}
+              position={[1.843, 1.55, -1.339]}
+              rotation={[-0.458, -1.362, -0.775]}
+              scale={[3.408, 0.103, 1.009]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube6_lambert1_0001.geometry}
+              material={materials.lambert1}
+              position={[3.332, 1.494, 0.581]}
+              rotation={[2.935, 0.539, 3.005]}
+              scale={[3.408, 0.103, 1.009]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube7_lambert1_0.geometry}
+              material={materials.lambert1}
+              position={[1.097, 1.494, 0.895]}
+              rotation={[-0.077, 0.726, -0.19]}
+              scale={[3.408, 0.103, 1.009]}
+            />
+          </group>
+          <group position={[6.312, 0.209, 1.564]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane1_lambert1_0003.geometry}
+              material={materials.lambert1}
+              position={[-5.649, 1.405, 0.203]}
+              rotation={[Math.PI / 2, 0, 0]}
+              scale={[0.077, 0.481, 0.481]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane2_lambert1_0003.geometry}
+              material={materials.lambert1}
+              position={[-5.834, 1.311, 0.001]}
+              rotation={[1.109, 0.142, -0.336]}
+              scale={[0.06, 0.375, 0.375]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane3_lambert1_0003.geometry}
+              material={materials.lambert1}
+              position={[-5.823, 1.297, 0.247]}
+              rotation={[2.072, 0.398, -2.763]}
+              scale={[0.06, 0.375, 0.375]}
+            />
+          </group>
+          <group position={[4.219, 0.043, 3.987]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane1_lambert1_0004.geometry}
+              material={materials.lambert1}
+              position={[-5.649, 1.405, 0.203]}
+              rotation={[Math.PI / 2, 0, 0]}
+              scale={[0.077, 0.481, 0.481]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane2_lambert1_0004.geometry}
+              material={materials.lambert1}
+              position={[-5.834, 1.311, 0.001]}
+              rotation={[1.109, 0.142, -0.336]}
+              scale={[0.06, 0.375, 0.375]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane3_lambert1_0004.geometry}
+              material={materials.lambert1}
+              position={[-5.823, 1.297, 0.247]}
+              rotation={[2.072, 0.398, -2.763]}
+              scale={[0.06, 0.375, 0.375]}
+            />
+          </group>
+          <group position={[3.283, 0.414, -0.976]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane1_lambert1_0005.geometry}
+              material={materials.lambert1}
+              position={[-5.649, 1.405, 0.203]}
+              rotation={[Math.PI / 2, 0, 0]}
+              scale={[0.077, 0.481, 0.481]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane2_lambert1_0005.geometry}
+              material={materials.lambert1}
+              position={[-5.834, 1.311, 0.001]}
+              rotation={[1.109, 0.142, -0.336]}
+              scale={[0.06, 0.375, 0.375]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane3_lambert1_0005.geometry}
+              material={materials.lambert1}
+              position={[-5.823, 1.297, 0.247]}
+              rotation={[2.072, 0.398, -2.763]}
+              scale={[0.06, 0.375, 0.375]}
+            />
+          </group>
+          <group position={[6.254, 0.245, -1.05]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane1_lambert1_0006.geometry}
+              material={materials.lambert1}
+              position={[-5.649, 1.405, 0.203]}
+              rotation={[Math.PI / 2, 0, 0]}
+              scale={[0.077, 0.481, 0.481]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane2_lambert1_0006.geometry}
+              material={materials.lambert1}
+              position={[-5.834, 1.311, 0.001]}
+              rotation={[1.109, 0.142, -0.336]}
+              scale={[0.06, 0.375, 0.375]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane3_lambert1_0006.geometry}
+              material={materials.lambert1}
+              position={[-5.823, 1.297, 0.247]}
+              rotation={[2.072, 0.398, -2.763]}
+              scale={[0.06, 0.375, 0.375]}
+            />
+          </group>
+          <group position={[-0.484, -0.173, -1.922]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane1_lambert1_0007.geometry}
+              material={materials.lambert1}
+              position={[-5.649, 1.405, 0.203]}
+              rotation={[Math.PI / 2, 0, 0]}
+              scale={[0.077, 0.481, 0.481]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane2_lambert1_0007.geometry}
+              material={materials.lambert1}
+              position={[-5.834, 1.311, 0.001]}
+              rotation={[1.109, 0.142, -0.336]}
+              scale={[0.06, 0.375, 0.375]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane3_lambert1_0007.geometry}
+              material={materials.lambert1}
+              position={[-5.823, 1.297, 0.247]}
+              rotation={[2.072, 0.398, -2.763]}
+              scale={[0.06, 0.375, 0.375]}
+            />
+          </group>
+          <group position={[2.353, 0.414, 0.671]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane1_lambert1_0001.geometry}
+              material={materials.lambert1}
+              position={[-5.649, 1.405, 0.203]}
+              rotation={[Math.PI / 2, 0, 0]}
+              scale={[0.077, 0.481, 0.481]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane2_lambert1_0001.geometry}
+              material={materials.lambert1}
+              position={[-5.834, 1.311, 0.001]}
+              rotation={[1.109, 0.142, -0.336]}
+              scale={[0.06, 0.375, 0.375]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane3_lambert1_0001.geometry}
+              material={materials.lambert1}
+              position={[-5.823, 1.297, 0.247]}
+              rotation={[2.072, 0.398, -2.763]}
+              scale={[0.06, 0.375, 0.375]}
+            />
+          </group>
+          <group position={[2.109, 0.184, -2.741]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane1_lambert1_0002.geometry}
+              material={materials.lambert1}
+              position={[-5.649, 1.405, 0.203]}
+              rotation={[Math.PI / 2, 0, 0]}
+              scale={[0.077, 0.481, 0.481]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane2_lambert1_0002.geometry}
+              material={materials.lambert1}
+              position={[-5.834, 1.311, 0.001]}
+              rotation={[1.109, 0.142, -0.336]}
+              scale={[0.06, 0.375, 0.375]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pPlane3_lambert1_0002.geometry}
+              material={materials.lambert1}
+              position={[-5.823, 1.297, 0.247]}
+              rotation={[2.072, 0.398, -2.763]}
+              scale={[0.06, 0.375, 0.375]}
+            />
+          </group>
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.pPlane1_lambert1_0.geometry}
+            material={materials.lambert1}
+            position={[-5.649, 1.405, 0.203]}
+            rotation={[Math.PI / 2, 0, 0]}
+            scale={[0.077, 0.481, 0.481]}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.pPlane2_lambert1_0.geometry}
+            material={materials.lambert1}
+            position={[-5.834, 1.311, 0.001]}
+            rotation={[1.109, 0.142, -0.336]}
+            scale={[0.06, 0.375, 0.375]}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.pPlane3_lambert1_0.geometry}
+            material={materials.lambert1}
+            position={[-5.823, 1.297, 0.247]}
+            rotation={[2.072, 0.398, -2.763]}
+            scale={[0.06, 0.375, 0.375]}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.ground_lambert1_0.geometry}
+            material={materials.lambert1}
+            position={[-2.089, -0.965, 0.27]}
+            scale={[7.145, 2.645, 7.145]}
+          />
+          <group
+            position={[0.343, 1.644, 0.063]}
+            rotation={[0.054, 0.004, 0.062]}
+            scale={[0.244, 0.358, 0.244]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube11_lambert1_0.geometry}
+              material={materials.lambert1}
+              position={[-15.937, 0.196, -0.511]}
+              rotation={[0.25, 0, 0]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube12_lambert1_0.geometry}
+              material={materials.lambert1}
+              position={[-16.744, 0.196, 0.131]}
+              rotation={[0.848, 1.235, -0.819]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube13_lambert1_0.geometry}
+              material={materials.lambert1}
+              position={[-16.246, 0.14, 1.063]}
+              rotation={[2.945, 0.402, -3.091]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube14_lambert1_0.geometry}
+              material={materials.lambert1}
+              position={[-15.209, 0.095, 0.017]}
+              rotation={[0.303, -1.144, 0.307]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube15_lambert1_0.geometry}
+              material={materials.lambert1}
+              position={[-15.341, 0.161, 0.874]}
+              rotation={[2.849, -0.782, 2.906]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere4_lambert1_0.geometry}
+              material={materials.lambert1}
+              position={[-15.913, 0.318, 0.317]}
+              scale={0.469}
+            />
+          </group>
+          <group
+            position={[-1.29, 2.176, 0.017]}
+            rotation={[0.016, -0.172, 0.267]}
+            scale={[0.188, 0.275, 0.188]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube11_lambert1_0001.geometry}
+              material={materials.lambert1}
+              position={[-15.937, 0.196, -0.511]}
+              rotation={[0.25, 0, 0]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube12_lambert1_0001.geometry}
+              material={materials.lambert1}
+              position={[-16.744, 0.196, 0.131]}
+              rotation={[0.848, 1.235, -0.819]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube13_lambert1_0001.geometry}
+              material={materials.lambert1}
+              position={[-16.246, 0.14, 1.063]}
+              rotation={[2.945, 0.402, -3.091]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube14_lambert1_0001.geometry}
+              material={materials.lambert1}
+              position={[-15.209, 0.095, 0.017]}
+              rotation={[0.303, -1.144, 0.307]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube15_lambert1_0001.geometry}
+              material={materials.lambert1}
+              position={[-15.341, 0.161, 0.874]}
+              rotation={[2.849, -0.782, 2.906]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere4_lambert1_0001.geometry}
+              material={materials.lambert1}
+              position={[-15.913, 0.318, 0.317]}
+              scale={0.469}
+            />
+          </group>
+          <group
+            position={[-3.057, 1.769, 2.078]}
+            rotation={[0.13, -0.172, 0.267]}
+            scale={[0.18, 0.263, 0.18]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube11_lambert1_0010.geometry}
+              material={materials.lambert1}
+              position={[-15.937, 0.196, -0.511]}
+              rotation={[0.25, 0, 0]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube12_lambert1_0010.geometry}
+              material={materials.lambert1}
+              position={[-16.744, 0.196, 0.131]}
+              rotation={[0.848, 1.235, -0.819]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube13_lambert1_0010.geometry}
+              material={materials.lambert1}
+              position={[-16.246, 0.14, 1.063]}
+              rotation={[2.945, 0.402, -3.091]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube14_lambert1_0010.geometry}
+              material={materials.lambert1}
+              position={[-15.209, 0.095, 0.017]}
+              rotation={[0.303, -1.144, 0.307]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube15_lambert1_0010.geometry}
+              material={materials.lambert1}
+              position={[-15.341, 0.161, 0.874]}
+              rotation={[2.849, -0.782, 2.906]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere4_lambert1_0010.geometry}
+              material={materials.lambert1}
+              position={[-15.913, 0.318, 0.317]}
+              scale={0.469}
+            />
+          </group>
+          <group
+            position={[-3.672, 1.674, 1.194]}
+            rotation={[-0.001, -0.213, 0.244]}
+            scale={[0.18, 0.263, 0.18]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube11_lambert1_0011.geometry}
+              material={materials.lambert1}
+              position={[-15.937, 0.196, -0.511]}
+              rotation={[0.25, 0, 0]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube12_lambert1_0011.geometry}
+              material={materials.lambert1}
+              position={[-16.744, 0.196, 0.131]}
+              rotation={[0.848, 1.235, -0.819]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube13_lambert1_0011.geometry}
+              material={materials.lambert1}
+              position={[-16.246, 0.14, 1.063]}
+              rotation={[2.945, 0.402, -3.091]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube14_lambert1_0011.geometry}
+              material={materials.lambert1}
+              position={[-15.209, 0.095, 0.017]}
+              rotation={[0.303, -1.144, 0.307]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube15_lambert1_0011.geometry}
+              material={materials.lambert1}
+              position={[-15.341, 0.161, 0.874]}
+              rotation={[2.849, -0.782, 2.906]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere4_lambert1_0011.geometry}
+              material={materials.lambert1}
+              position={[-15.913, 0.318, 0.317]}
+              scale={0.469}
+            />
+          </group>
+          <group
+            position={[-2.844, 2.167, 1.077]}
+            rotation={[0.15, -0.079, 0.365]}
+            scale={[0.188, 0.275, 0.188]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube11_lambert1_0012.geometry}
+              material={materials.lambert1}
+              position={[-15.937, 0.196, -0.511]}
+              rotation={[0.25, 0, 0]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube12_lambert1_0012.geometry}
+              material={materials.lambert1}
+              position={[-16.744, 0.196, 0.131]}
+              rotation={[0.848, 1.235, -0.819]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube13_lambert1_0012.geometry}
+              material={materials.lambert1}
+              position={[-16.246, 0.14, 1.063]}
+              rotation={[2.945, 0.402, -3.091]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube14_lambert1_0012.geometry}
+              material={materials.lambert1}
+              position={[-15.209, 0.095, 0.017]}
+              rotation={[0.303, -1.144, 0.307]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube15_lambert1_0012.geometry}
+              material={materials.lambert1}
+              position={[-15.341, 0.161, 0.874]}
+              rotation={[2.849, -0.782, 2.906]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere4_lambert1_0012.geometry}
+              material={materials.lambert1}
+              position={[-15.913, 0.318, 0.317]}
+              scale={0.469}
+            />
+          </group>
+          <group
+            position={[3.671, 0.714, 1.345]}
+            rotation={[-0.063, -0.091, -0.198]}
+            scale={[0.18, 0.263, 0.18]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube11_lambert1_0013.geometry}
+              material={materials.lambert1}
+              position={[-15.937, 0.196, -0.511]}
+              rotation={[0.25, 0, 0]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube12_lambert1_0013.geometry}
+              material={materials.lambert1}
+              position={[-16.744, 0.196, 0.131]}
+              rotation={[0.848, 1.235, -0.819]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube13_lambert1_0013.geometry}
+              material={materials.lambert1}
+              position={[-16.246, 0.14, 1.063]}
+              rotation={[2.945, 0.402, -3.091]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube14_lambert1_0013.geometry}
+              material={materials.lambert1}
+              position={[-15.209, 0.095, 0.017]}
+              rotation={[0.303, -1.144, 0.307]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube15_lambert1_0013.geometry}
+              material={materials.lambert1}
+              position={[-15.341, 0.161, 0.874]}
+              rotation={[2.849, -0.782, 2.906]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere4_lambert1_0013.geometry}
+              material={materials.lambert1}
+              position={[-15.913, 0.318, 0.317]}
+              scale={0.469}
+            />
+          </group>
+          <group
+            position={[-1.51, 2.41, 0.782]}
+            rotation={[0.15, -0.079, 0.365]}
+            scale={[0.188, 0.275, 0.188]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube11_lambert1_0002.geometry}
+              material={materials.lambert1}
+              position={[-15.937, 0.196, -0.511]}
+              rotation={[0.25, 0, 0]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube12_lambert1_0002.geometry}
+              material={materials.lambert1}
+              position={[-16.744, 0.196, 0.131]}
+              rotation={[0.848, 1.235, -0.819]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube13_lambert1_0002.geometry}
+              material={materials.lambert1}
+              position={[-16.246, 0.14, 1.063]}
+              rotation={[2.945, 0.402, -3.091]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube14_lambert1_0002.geometry}
+              material={materials.lambert1}
+              position={[-15.209, 0.095, 0.017]}
+              rotation={[0.303, -1.144, 0.307]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube15_lambert1_0002.geometry}
+              material={materials.lambert1}
+              position={[-15.341, 0.161, 0.874]}
+              rotation={[2.849, -0.782, 2.906]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere4_lambert1_0002.geometry}
+              material={materials.lambert1}
+              position={[-15.913, 0.318, 0.317]}
+              scale={0.469}
+            />
+          </group>
+          <group
+            position={[1.552, 1.333, 3.881]}
+            rotation={[0.142, -0.042, 0.049]}
+            scale={[0.244, 0.358, 0.244]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube11_lambert1_0003.geometry}
+              material={materials.lambert1}
+              position={[-15.937, 0.196, -0.511]}
+              rotation={[0.25, 0, 0]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube12_lambert1_0003.geometry}
+              material={materials.lambert1}
+              position={[-16.744, 0.196, 0.131]}
+              rotation={[0.848, 1.235, -0.819]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube13_lambert1_0003.geometry}
+              material={materials.lambert1}
+              position={[-16.246, 0.14, 1.063]}
+              rotation={[2.945, 0.402, -3.091]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube14_lambert1_0003.geometry}
+              material={materials.lambert1}
+              position={[-15.209, 0.095, 0.017]}
+              rotation={[0.303, -1.144, 0.307]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube15_lambert1_0003.geometry}
+              material={materials.lambert1}
+              position={[-15.341, 0.161, 0.874]}
+              rotation={[2.849, -0.782, 2.906]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere4_lambert1_0003.geometry}
+              material={materials.lambert1}
+              position={[-15.913, 0.318, 0.317]}
+              scale={0.469}
+            />
+          </group>
+          <group
+            position={[-0.476, 1.468, 3.942]}
+            rotation={[0.272, -0.081, 0.13]}
+            scale={[0.18, 0.263, 0.18]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube11_lambert1_0004.geometry}
+              material={materials.lambert1}
+              position={[-15.937, 0.196, -0.511]}
+              rotation={[0.25, 0, 0]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube12_lambert1_0004.geometry}
+              material={materials.lambert1}
+              position={[-16.744, 0.196, 0.131]}
+              rotation={[0.848, 1.235, -0.819]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube13_lambert1_0004.geometry}
+              material={materials.lambert1}
+              position={[-16.246, 0.14, 1.063]}
+              rotation={[2.945, 0.402, -3.091]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube14_lambert1_0004.geometry}
+              material={materials.lambert1}
+              position={[-15.209, 0.095, 0.017]}
+              rotation={[0.303, -1.144, 0.307]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube15_lambert1_0004.geometry}
+              material={materials.lambert1}
+              position={[-15.341, 0.161, 0.874]}
+              rotation={[2.849, -0.782, 2.906]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere4_lambert1_0004.geometry}
+              material={materials.lambert1}
+              position={[-15.913, 0.318, 0.317]}
+              scale={0.469}
+            />
+          </group>
+          <group
+            position={[1.826, 0.99, -3.089]}
+            rotation={[-0.105, 0.028, -0.079]}
+            scale={[0.18, 0.263, 0.18]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube11_lambert1_0005.geometry}
+              material={materials.lambert1}
+              position={[-15.937, 0.196, -0.511]}
+              rotation={[0.25, 0, 0]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube12_lambert1_0005.geometry}
+              material={materials.lambert1}
+              position={[-16.744, 0.196, 0.131]}
+              rotation={[0.848, 1.235, -0.819]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube13_lambert1_0005.geometry}
+              material={materials.lambert1}
+              position={[-16.246, 0.14, 1.063]}
+              rotation={[2.945, 0.402, -3.091]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube14_lambert1_0005.geometry}
+              material={materials.lambert1}
+              position={[-15.209, 0.095, 0.017]}
+              rotation={[0.303, -1.144, 0.307]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube15_lambert1_0005.geometry}
+              material={materials.lambert1}
+              position={[-15.341, 0.161, 0.874]}
+              rotation={[2.849, -0.782, 2.906]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere4_lambert1_0005.geometry}
+              material={materials.lambert1}
+              position={[-15.913, 0.318, 0.317]}
+              scale={0.469}
+            />
+          </group>
+          <group
+            position={[3.866, 0.846, -2.299]}
+            rotation={[-0.105, 0.028, -0.079]}
+            scale={[0.278, 0.408, 0.278]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube11_lambert1_0006.geometry}
+              material={materials.lambert1}
+              position={[-15.937, 0.196, -0.511]}
+              rotation={[0.25, 0, 0]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube12_lambert1_0006.geometry}
+              material={materials.lambert1}
+              position={[-16.744, 0.196, 0.131]}
+              rotation={[0.848, 1.235, -0.819]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube13_lambert1_0006.geometry}
+              material={materials.lambert1}
+              position={[-16.246, 0.14, 1.063]}
+              rotation={[2.945, 0.402, -3.091]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube14_lambert1_0006.geometry}
+              material={materials.lambert1}
+              position={[-15.209, 0.095, 0.017]}
+              rotation={[0.303, -1.144, 0.307]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube15_lambert1_0006.geometry}
+              material={materials.lambert1}
+              position={[-15.341, 0.161, 0.874]}
+              rotation={[2.849, -0.782, 2.906]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere4_lambert1_0006.geometry}
+              material={materials.lambert1}
+              position={[-15.913, 0.318, 0.317]}
+              scale={0.469}
+            />
+          </group>
+          <group
+            position={[3.128, 0.995, -2.179]}
+            rotation={[-0.105, 0.028, -0.079]}
+            scale={[0.18, 0.263, 0.18]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube11_lambert1_0007.geometry}
+              material={materials.lambert1}
+              position={[-15.937, 0.196, -0.511]}
+              rotation={[0.25, 0, 0]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube12_lambert1_0007.geometry}
+              material={materials.lambert1}
+              position={[-16.744, 0.196, 0.131]}
+              rotation={[0.848, 1.235, -0.819]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube13_lambert1_0007.geometry}
+              material={materials.lambert1}
+              position={[-16.246, 0.14, 1.063]}
+              rotation={[2.945, 0.402, -3.091]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube14_lambert1_0007.geometry}
+              material={materials.lambert1}
+              position={[-15.209, 0.095, 0.017]}
+              rotation={[0.303, -1.144, 0.307]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube15_lambert1_0007.geometry}
+              material={materials.lambert1}
+              position={[-15.341, 0.161, 0.874]}
+              rotation={[2.849, -0.782, 2.906]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere4_lambert1_0007.geometry}
+              material={materials.lambert1}
+              position={[-15.913, 0.318, 0.317]}
+              scale={0.469}
+            />
+          </group>
+          <group
+            position={[-0.274, 2.152, 3.647]}
+            rotation={[0.227, -0.206, 0.279]}
+            scale={[0.278, 0.408, 0.278]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube11_lambert1_0008.geometry}
+              material={materials.lambert1}
+              position={[-15.937, 0.196, -0.511]}
+              rotation={[0.25, 0, 0]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube12_lambert1_0008.geometry}
+              material={materials.lambert1}
+              position={[-16.744, 0.196, 0.131]}
+              rotation={[0.848, 1.235, -0.819]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube13_lambert1_0008.geometry}
+              material={materials.lambert1}
+              position={[-16.246, 0.14, 1.063]}
+              rotation={[2.945, 0.402, -3.091]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube14_lambert1_0008.geometry}
+              material={materials.lambert1}
+              position={[-15.209, 0.095, 0.017]}
+              rotation={[0.303, -1.144, 0.307]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube15_lambert1_0008.geometry}
+              material={materials.lambert1}
+              position={[-15.341, 0.161, 0.874]}
+              rotation={[2.849, -0.782, 2.906]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere4_lambert1_0008.geometry}
+              material={materials.lambert1}
+              position={[-15.913, 0.318, 0.317]}
+              scale={0.469}
+            />
+          </group>
+          <group
+            position={[-2.483, 1.781, 2.727]}
+            rotation={[0.224, 0.049, 0.253]}
+            scale={[0.188, 0.275, 0.188]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube11_lambert1_0009.geometry}
+              material={materials.lambert1}
+              position={[-15.937, 0.196, -0.511]}
+              rotation={[0.25, 0, 0]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube12_lambert1_0009.geometry}
+              material={materials.lambert1}
+              position={[-16.744, 0.196, 0.131]}
+              rotation={[0.848, 1.235, -0.819]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube13_lambert1_0009.geometry}
+              material={materials.lambert1}
+              position={[-16.246, 0.14, 1.063]}
+              rotation={[2.945, 0.402, -3.091]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube14_lambert1_0009.geometry}
+              material={materials.lambert1}
+              position={[-15.209, 0.095, 0.017]}
+              rotation={[0.303, -1.144, 0.307]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCube15_lambert1_0009.geometry}
+              material={materials.lambert1}
+              position={[-15.341, 0.161, 0.874]}
+              rotation={[2.849, -0.782, 2.906]}
+              scale={[1, 1, 1.508]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere4_lambert1_0009.geometry}
+              material={materials.lambert1}
+              position={[-15.913, 0.318, 0.317]}
+              scale={0.469}
+            />
+          </group>
+          <group position={[-0.936, -0.931, 3.242]} rotation={[0.203, 0, 0]} scale={0.679}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCylinder3_lambert1_0.geometry}
+              material={materials.lambert1}
+              position={[-0.09, 4.161, 0.257]}
+              scale={[0.342, 0.931, 0.342]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere3_lambert1_0.geometry}
+              material={materials.lambert1}
+              position={[-0.078, 4.546, 0.235]}
+              scale={[1, 0.884, 1]}
+            />
+          </group>
+          <group position={[0.079, -0.361, 3.247]} rotation={[-0.104, 0.225, -0.224]} scale={0.471}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCylinder3_lambert1_0001.geometry}
+              material={materials.lambert1}
+              position={[-0.09, 4.161, 0.257]}
+              scale={[0.342, 0.931, 0.342]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere3_lambert1_0001.geometry}
+              material={materials.lambert1}
+              position={[-0.078, 4.546, 0.235]}
+              scale={[1, 0.884, 1]}
+            />
+          </group>
+          <group position={[-0.254, 0.035, 3.498]} rotation={[0.322, -0.07, -0.252]} scale={0.35}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCylinder3_lambert1_0002.geometry}
+              material={materials.lambert1}
+              position={[-0.09, 4.161, 0.257]}
+              scale={[0.342, 0.931, 0.342]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere3_lambert1_0002.geometry}
+              material={materials.lambert1}
+              position={[-0.078, 4.546, 0.235]}
+              scale={[1, 0.884, 1]}
+            />
+          </group>
+          <group
+            position={[-4.456, -0.159, -1.739]}
+            rotation={[-0.034, -0.022, 0.132]}
+            scale={[0.401, 0.461, 0.401]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCylinder3_lambert1_0003.geometry}
+              material={materials.lambert1}
+              position={[-0.09, 4.161, 0.257]}
+              scale={[0.342, 0.931, 0.342]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere3_lambert1_0003.geometry}
+              material={materials.lambert1}
+              position={[-0.078, 4.546, 0.235]}
+              scale={[1, 0.884, 1]}
+            />
+          </group>
+          <group
+            position={[-4.316, -0.776, -2.506]}
+            rotation={[-0.2, 0.004, 0.019]}
+            scale={[0.527, 0.586, 0.527]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCylinder3_lambert1_0004.geometry}
+              material={materials.lambert1}
+              position={[-0.09, 4.161, 0.257]}
+              scale={[0.342, 0.931, 0.342]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere3_lambert1_0004.geometry}
+              material={materials.lambert1}
+              position={[-0.078, 4.546, 0.235]}
+              scale={[1, 0.884, 1]}
+            />
+          </group>
+          <group
+            position={[-4.933, -0.093, -2.31]}
+            rotation={[-0.1, -0.256, 0.371]}
+            scale={[0.334, 0.372, 0.334]}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCylinder3_lambert1_0005.geometry}
+              material={materials.lambert1}
+              position={[-0.09, 4.161, 0.257]}
+              scale={[0.342, 0.931, 0.342]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere3_lambert1_0005.geometry}
+              material={materials.lambert1}
+              position={[-0.078, 4.546, 0.235]}
+              scale={[1, 0.884, 1]}
+            />
+          </group>
+          <group position={[-4.309, -0.199, 1.677]} rotation={[0.104, -0.173, 0.268]} scale={0.471}>
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pCylinder3_lambert1_0006.geometry}
+              material={materials.lambert1}
+              position={[-0.09, 4.161, 0.257]}
+              scale={[0.342, 0.931, 0.342]}
+            />
+            <mesh
+              castShadow
+              receiveShadow
+              geometry={nodes.pSphere3_lambert1_0006.geometry}
+              material={materials.lambert1}
+              position={[-0.078, 4.546, 0.235]}
+              scale={[1, 0.884, 1]}
+            />
+          </group>
+        </group>
       </group>
     </a.group>
   )
