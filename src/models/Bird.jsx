@@ -10,7 +10,7 @@ const Bird = () => {
   const { actions } = useAnimations(animations, birdRef);
 
   useEffect(() => {
-    actions['Take 001'].play();
+    actions['animation.rayquaza.fly'].play();
   }, []);
 
   useFrame(({ clock, camera }) => {
@@ -35,7 +35,8 @@ const Bird = () => {
   return (
     <mesh 
     position={[-5, 2, 1]} 
-    scale={[0.003, 0.003, 0.003]} 
+    scale={[0.006, 0.006, 0.006]} 
+    rotation={[0, 0, 0]}
     ref={birdRef}
     >
       <primitive object={scene} />

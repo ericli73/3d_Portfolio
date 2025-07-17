@@ -54,10 +54,12 @@ const Home = () => {
         camera={{ near: 0.1, far: 1000 }}
       >
         <Suspense fallback={<Loader />}>
-          <directionalLight position={[0, 1, 3]} intensity={1} />
+          <directionalLight position={[0, -1, 1]} intensity={-1} />
+          <directionalLight position={[0, 0, 1]} intensity={1} />
           <ambientLight intesity={0.5} />
           <hemisphereLight skyColor="#b1e1ff" groundColor="#000000" intesity={1} />
 
+          <Bird/>
           <Sky isRotating={isRotating}/>
           <Island 
             position={islandPosition} 
@@ -72,7 +74,7 @@ const Home = () => {
           isRotating={isRotating}
           planeScale={planeScale}
           planePosition={planePosition}
-          rotation={[0, 19.7, 0]}
+          rotation={[0, 19.6, 0]}
         />
       </Canvas>
     </section>
