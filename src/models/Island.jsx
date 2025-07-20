@@ -59,14 +59,14 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
   }
 
   const handleKeyDown = (e) => {
-    if(e.key === 'ArrowLeft') {
-      if(e.key === 'ArrowLeft') {
+    if(e.key === 'ArrowLeft' || e.key === 'a') {
         if(!isRotating) setIsRotating(true);
         islandRef.current.rotation.y += 0.01 * Math.PI;
-      } else if(e.key === 'ArrowRight') {
+        rotationSpeed.current = 0.0125;
+    } else if(e.key === 'ArrowRight' || e.key === 'd') {
         if(!isRotating) setIsRotating(true);
         islandRef.current.rotation.y -= 0.01 * Math.PI;
-      }
+        rotationSpeed.current = -0.0125;
     }
   }
 
@@ -145,7 +145,7 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
 
   return (
     <a.group ref = {islandRef} {...props} dispose={null}>
-      <group position={[14.412, -4.56, 0]} rotation={[-Math.PI / 2, 0, 0]} scale={6.9}>
+      <group position={[14.412, -7.75, 0]} rotation={[-Math.PI / 2, 0, 0]} scale={6.9}>
         <group rotation={[Math.PI / 2, 0, 0]}>
           <group position={[-4.225, 0.123, -3.158]} rotation={[0, -0.661, 0]}>
             <group position={[1.545, 2.352, 0.707]} rotation={[0.352, 1.053, 0]} scale={0.477}>

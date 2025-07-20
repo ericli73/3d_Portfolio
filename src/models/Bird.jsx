@@ -10,7 +10,7 @@ const Bird = () => {
   const { actions } = useAnimations(animations, birdRef);
 
   useEffect(() => {
-    actions['_bee_hover'].play();
+    actions['Scene'].play();
   }, []);
 
   useFrame(({ clock, camera }) => {
@@ -35,7 +35,7 @@ const Bird = () => {
   return (
     <mesh 
     position={[-5, 2, 1]} 
-    scale={[0.12, 0.12, 0.12]} 
+    scale={[1.67, 1.67, 1.67]} 
     rotation={[0, 0, 0]}
     ref={birdRef}
     >

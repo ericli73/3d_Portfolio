@@ -27,44 +27,23 @@ const Fox = ({ currentAnimation, ...props }) => {
 
   return (
     <group ref={group} {...props} dispose={null}>
-      <group name="Sketchfab_Scene">
-        <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, 0]}>
-          <group name="Jonah's_Enderman_Rigfbx" rotation={[Math.PI / 2, 0, 0]} scale={0.01}>
-            <group name="Object_2">
-              <group name="RootNode">
-                <group name="Mesh" rotation={[-Math.PI / 2, 0, 0]} scale={100} />
-                <group
-                  name="Light"
-                  position={[307.625, 190.386, 299.455]}
-                  rotation={[1.89, 0.881, -2.045]}
-                  scale={100}>
-                  <group name="Object_6" rotation={[Math.PI / 2, 0, 0]}>
-                    <group name="Object_7" />
-                  </group>
-                </group>
-                <group
-                  name="Camera"
-                  position={[794.567, 182.179, 3639.037]}
-                  rotation={[-2.988, 1.34, 2.913]}
-                  scale={100}>
-                  <group name="Object_9" />
-                </group>
-                <group name="Armature" rotation={[-Math.PI / 2, 0, 0]} scale={100}>
-                  <group name="Object_11">
-                    <primitive object={nodes._rootJoint} />
+      <group name="Scene">
+        <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, 0]} scale={0.5}>
+          <group name="root">
+            <group name="GLTF_SceneRootNode" rotation={[Math.PI / 2, 0, 0]}>
+              <group name="RootNode0_0" scale={0.01}>
+                <group name="skeletal1_9">
+                  <group name="GLTF_created_0">
+                    <group name="1645859359680_0_111_correction">
+                      <group name="1645859359680_0_111" />
+                    </group>
                     <skinnedMesh
-                      name="Object_14"
-                      geometry={nodes.Object_14.geometry}
-                      material={materials.Skin}
-                      skeleton={nodes.Object_14.skeleton}
+                      name="Object_116"
+                      geometry={nodes.Object_116.geometry}
+                      material={materials.mtl_bee41}
+                      skeleton={nodes.Object_116.skeleton}
                     />
-                    <skinnedMesh
-                      name="Object_15"
-                      geometry={nodes.Object_15.geometry}
-                      material={materials.Eyes}
-                      skeleton={nodes.Object_15.skeleton}
-                    />
-                    <group name="Object_13" rotation={[-Math.PI / 2, 0, 0]} scale={100} />
+                    <primitive object={nodes.GLTF_created_0_rootJoint} />
                   </group>
                 </group>
               </group>
