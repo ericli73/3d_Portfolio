@@ -7,6 +7,7 @@ import Island from '../models/Island'
 import Sky from '../models/Sky'
 import Bird from '../models/Bird'
 import Plane from '../models/Plane'
+import Hand from '../models/Hand'
 
 import sakura from '../assets/sakura.mp3';
 import { soundoff, soundon } from '../assets/icons'
@@ -75,7 +76,7 @@ const Home = () => {
           <ambientLight intesity={0.5} />
           <hemisphereLight skyColor="#b1e1ff" groundColor="#000000" intesity={1} />
 
-          <Bird/>
+          <Bird />
           <Sky isRotating={isRotating}/>
           <Island 
             position={islandPosition} 
@@ -85,6 +86,7 @@ const Home = () => {
             setIsRotating={setIsRotating}
             setCurrentStage={setCurrentStage}
           />
+          <Hand isRotating={isRotating}/>
         </Suspense>
         <Plane 
           isRotating={isRotating}
