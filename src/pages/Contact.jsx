@@ -1,4 +1,4 @@
-import React, { Suspense, useState, useRef } from 'react'
+import { Suspense, useState, useRef, useEffect } from 'react'
 import emailjs from '@emailjs/browser'
 import { Canvas } from '@react-three/fiber'
 
@@ -8,7 +8,15 @@ import Fox from '../models/Fox'
 import useAlert from '../hooks/useAlert'
 import Alert from '../components/Alert'
 
+import instagramIcon from '../assets/icons/instagram.png';
+import githubIcon from '../assets/icons/github.svg';
+import linkedinIcon from '../assets/icons/linkedin.png';
+
 const Contact = () => {
+    useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const formRef = useRef(null);
   const [form, setForm] = useState({ name: '', email: '', message: '' });
   const [isLoading, setIsLoading] = useState(false);
@@ -120,6 +128,29 @@ const Contact = () => {
             {isLoading ? 'Sending...' : 'Send Message'}
           </button>
         </form>
+        <div className="flex gap-4 mt-6">
+          <a href="https://www.instagram.com/its.ericli/" target="_blank" rel="noopener noreferrer">
+            <img 
+              src= {instagramIcon}
+              alt="Instagram"
+              className="w-10 h-10 hover:scale-110 transition-transform duration-200"
+            />
+          </a>
+          <a href="https://github.com/ericli73" target="_blank" rel="noopener noreferrer">
+            <img 
+              src= {githubIcon}
+              alt="GitHub"
+              className="w-10 h-10 hover:scale-110 transition-transform duration-200"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/ericli73/" target="_blank" rel="noopener noreferrer">
+            <img 
+              src= {linkedinIcon}
+              alt="LinkedIn"
+              className="w-10 h-10 hover:scale-110 transition-transform duration-200"
+            />
+          </a>
+        </div>
       </div>
 
       <div className="lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]">
@@ -136,9 +167,9 @@ const Contact = () => {
           <Suspense fallback={<Loader />}>
             <Fox 
               currentAnimation={currentAnimation}
-              position={[0.25, -0.75, 0]}
+              position={[0.25, -0.5, 0]}
               rotation={[12.629, -0.6, 0]}
-              scale={[0.25, 0.25, 0.25]}   
+              scale={[0.26, 0.26, 0.26]} 
             />
           </Suspense>
         </Canvas>

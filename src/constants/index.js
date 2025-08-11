@@ -1,6 +1,5 @@
 import { meta, shopify, lhs, nu } from "../assets/images";
 import {
-    car,
     contact,
     css,
     estate,

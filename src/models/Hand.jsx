@@ -6,7 +6,6 @@ const Hand = ({ isRotating, ...props }) => {
   const ref = useRef();
   const { scene } = useGLTF(handModel);
 
-  // ❗ Ensure scene is loaded and only render when not rotating
   if (isRotating || !scene) return null;
 
   return (
