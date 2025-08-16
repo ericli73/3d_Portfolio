@@ -2,8 +2,6 @@ import { Suspense, useState, useRef, useEffect } from 'react'
 import emailjs from '@emailjs/browser'
 import { Canvas } from '@react-three/fiber'
 
-import Loader from '../components/Loader'
-
 import Fox from '../models/Fox'
 import useAlert from '../hooks/useAlert'
 import Alert from '../components/Alert'
@@ -164,7 +162,7 @@ const Contact = () => {
         >
           <directionalLight intensity={2.5} position={[0, 0, 1]} />
           <ambientLight intensity={0.5} />
-          <Suspense fallback={<Loader />}>
+          <Suspense fallback={null}>
             <Fox 
               currentAnimation={currentAnimation}
               position={[0.25, -0.5, 0]}

@@ -12,7 +12,7 @@ const About = () => {
       </h1>
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
-        <p>I dabbled in programming. I enjoy working on projects that challenge me to learn new technologies and deepen my understanding of software development. Beyond coding, I am interested in [your interests, e.g., open-source collaboration, AI, web development, game design, etc.].</p>
+        <p>I was exposed to programming at a young age, but my passion truly ignited when I took AP Computer Science Principles during my freshman year of high school. Since then, I have enjoyed working on projects that challenge me to learn new technologies and deepen my understanding of software development. Beyond coding, I love playing tennis/pickleball, exploring the city, and trying new foods!</p>
       </div>
 
       <div className="py-10 flex flex-col">

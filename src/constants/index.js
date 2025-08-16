@@ -110,10 +110,10 @@ export const experiences = [
         iconBg: "#ffdbbb",
         date: "Aug 2021 - May 2025",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Maintained a 4.0 GPA while taking 15 Advanced Placement courses, demonstrating commitment to academic rigor.",
+            "Participated in 10+ extracurricular clubs/sports/organizations, developing leadership, teamwork, and organizational skills.",
+            "Completed 100+ hours of community service, supporting local food banks and youth programs",
+            "Relevant Coursework: CS 331: Data Structures and Algorithms, AP Computer Science A, AP Computer Science Principles, MTH 246: Calculus and Analytic Geometry III, AP Calculus BC, AP Statistics, AP Macroeconomics",
         ],
     },
     {

@@ -190,8 +190,8 @@ body:has(.card[data-color="green"]:hover) {
 .spinner {
   width: 80px;
   height: 80px;
-  border: 4px solid rgba(59, 130, 246, 0.2); /* Tailwind's blue-500 at 20% opacity */
-  border-top-color: #3b82f6; /* Tailwind's blue-500 */
+  border: 4px solid rgba(255, 255, 255, 0.2); /* Tailwind's blue-500 at 20% opacity */
+  border-top-color: #ffffff; /* Tailwind's blue-500 */
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
